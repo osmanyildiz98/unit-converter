@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Unit Conventer</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <button id="changeTheme-btn" class="dark-btn">
+                <i class="fa-regular fa-moon"></i>
+            </button>
+        </nav>
+        
+        <main>
+            <main-header>
+                <h1 id="header">Metric/Imperial Unit Conversion</h1>
+                <input id="input-num" type="number">
+                <button id="convert-btn">Convert</button>
+            </main-header>
+            <main-content>
+                <div class="main-card">
+                    <h2 class="main-card-header">Length(Meter/Feet)</h2>
+                    <p id="length" class="main-card-text"></p>
+                </div>
+                <div class="main-card">
+                    <h2 class="main-card-header">Volume(Liters/Gallons)</h2>
+                    <p id="volume" class="main-card-text"></p>
+                </div>
+                <div class="main-card">
+                    <h2 class="main-card-header">Mass(Kilograms/Pounds)</h2>
+                    <p id="mass" class="main-card-text"></p>
+                </div>
+            </main-content>
+        </main>
+        
+        <footer>Copyright</footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
